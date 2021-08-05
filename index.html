@@ -4,35 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Google</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <nav>
+    <nav id="the_nav">
         <ul>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li>*</li>
-            <li>Sign in</li>
+            <li class="nav_option" id="Gmail">Gmail</li>
+            <li class="nav_option" id="Images">Images</li>
+            <li class="nav_option" id="Options">*</li>
+            <li class="nav_option" id="Sign">Sign in</li>
         </ul>
     </nav>
     <main>
         <img id="main_logo" src="/media/googlelogo_color_272x92dp.png" alt="Google logo">
-        <div>
-            <div>Google Search</div>
-            <div>I'm Feeling Lucky</div>
+        <form action="">
+            <div id="starting_curve"></div>
+            <input id="search" type="search">
+            <div id="ending_curve"></div>
+        </form>
+        <div id="main_two">
+            <div class="main_button">Google Search</div>
+            <div class="main_button">I'm Feeling Lucky</div>
         </div>
-        <div>Google offered in: English</div>
+        <div id="language">Google offered in: <a href="">English</a></div>
     </main>
-    <footer>
-        <div>United States</div>
-        <div>About</div>
-        <div>Advertising</div>
-        <div>Business</div>
-        <div>How Search works</div>
-        <div>Privacy</div>
-        <div>Terms</div>
-        <div>Settings</div>
+    <footer id="main_footer">
+        <div class="ft" id="ft1">
+            <div id="child_ft1">United States</div>
+        </div>
+        <a href="" class="ft" id="ft2">About</a>
+        <a href="" class="ft" id="ft3">Advertising</a>
+        <a href="" class="ft" id="ft4">Business</a>
+        <a href="" class="ft" id="ft5">How Search works</a>
+        <a href="" class="ft" id="ft6">Privacy</a>
+        <a href="" class="ft" id="ft7">Terms</a>
+        <a href="" class="ft" id="ft8">Settings</a>
 
     </footer>
 </body>

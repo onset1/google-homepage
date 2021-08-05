@@ -1,0 +1,143 @@
+html {
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#the_nav {
+    display: grid;
+    grid-template-columns: 10px 10px 10px 10px;
+    grid-template-rows: 10px;
+    grid-template-areas: "a1 a2 a3 a4";
+}
+
+#Gmail {
+    grid-area: a1;
+}
+
+#Images {
+    grid-area: a2;
+}
+
+#Options {
+    grid-area: a3;
+}
+
+#Sign {
+    grid-area: a4;
+}
+
+#search {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    height: 40px;
+    border-color: #f8f9fa;
+    border-style: solid;
+}
+
+#search::after {
+    content:"";
+    background-color: green;
+    z-index: 10;
+}
+
+#main_logo {
+    display: block;
+    margin: 0 auto;
+}
+
+#main_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#language {
+    text-align: center;
+    font-size: 14px;
+}
+
+.main_button {
+    background-color: #f8f9fa;
+}
+. {
+    background-color: #f8f9fa;
+}
+sign {
+    background-color: #1a73e8;
+}
+#main_footer {
+    color: #6f6f6f;
+    font-size: 14px;
+    background-color: #dfdfdf;
+    position: absolute;
+    width: 100%;
+    bottom: 1px;
+    display: grid;
+    grid-template-columns: repeat(7, fr);
+    grid-template-rows: fr fr;
+    row-gap: 1px;
+    grid-template-areas:
+    "ft ft ft ft ft ft ft"
+    "ft2 ft3 ft4 ft5 ft6 ft7 ft8";
+    justify-items: stretch;
+    align-items: center;
+}
+
+.ft {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.ft:link, .ft:visited, #ft1:hover, #ft1:active {
+    color: #6f6f6f;
+    text-decoration: none;
+}
+
+.ft:hover, .ft:active {
+    color: #6f6f6f;
+    text-decoration: underline;
+}
+
+#ft1 {
+    grid-area: ft;
+    display: grid;
+    grid-template-columns:repeat(7, fr);
+    grid-template-rows: fr;
+    grid-template-areas: "child a a a a a a a"
+}
+
+
+#child_ft1 {
+    grid-area: child;
+}
+
+#ft2 {
+    grid-area: ft2;
+}
+#ft3 {
+    grid-area: ft3;
+}
+#ft4 {
+    grid-area: ft4;
+}
+#ft5 {
+    grid-area: ft5;
+}
+#ft6 {
+    grid-area: ft6;
+}
+#ft7 {
+    grid-area: ft7;
+}
+#ft8 {
+    grid-area: ft8;
+}
+
