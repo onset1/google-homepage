@@ -1,0 +1,1 @@
+The project consists of replicating, up to a certain extent, the Google homepage webpage. Done for practising purposes. Use of HTML and CSS. Minimal or no use of Javascript.
