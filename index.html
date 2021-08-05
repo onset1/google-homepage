@@ -9,24 +9,23 @@
 </head>
 <body>
     <nav id="the_nav">
-        <ul>
-            <li class="nav_option" id="Gmail">Gmail</li>
-            <li class="nav_option" id="Images">Images</li>
-            <li class="nav_option" id="Options">*</li>
-            <li class="nav_option" id="Sign">Sign in</li>
-        </ul>
+        <div id="empty"></div>
+        <div class="nav_option" ><a href="" id="Gmail">Gmail</a></div>
+        <div class="nav_option" ><a href="" id="Images">Images</a></div>
+        <div class="nav_option" ><a href="" id="Options"><img src="./media/apps.png" alt=""></a></div>
+        <div class="nav_option" ><a href="" id="Sign">Sign in</a></div>
     </nav>
     <main>
         <img id="main_logo" src="/media/googlelogo_color_272x92dp.png" alt="Google logo">
         <form action="">
             <div id="starting_curve"></div>
-            <input id="search" type="search">
+            <input id="search" type="search" tabindex=0>
             <div id="ending_curve"></div>
+            <div id="main_two">
+                <input type="submit" name="option" class="main_button" id="mb1" value="Google Search">
+                <input type="submit" name="option" class="main_button" id="mb2" value="I'm Feeling Lucky">
+            </div>
         </form>
-        <div id="main_two">
-            <div class="main_button">Google Search</div>
-            <div class="main_button">I'm Feeling Lucky</div>
-        </div>
         <div id="language">Google offered in: <a href="">English</a></div>
     </main>
     <footer id="main_footer">
@@ -40,7 +39,7 @@
         <a href="" class="ft" id="ft6">Privacy</a>
         <a href="" class="ft" id="ft7">Terms</a>
         <a href="" class="ft" id="ft8">Settings</a>
-
+    
     </footer>
 </body>
 </html>
